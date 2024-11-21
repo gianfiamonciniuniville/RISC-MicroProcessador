@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Micro-Processador</title>
+	</head>
+	<body>
+		<main>
+			<h1>Micro-Processador RISC</h1>
+			<h2>Texto para binário</h2>
+			<input type="text" id="textInput" placeholder="Digite algo..." />
+			<button
+				onclick="addToList()"
+				style="background-color: green; color: white"
+			>
+				Adicionar
+			</button>
+			<button
+				onclick="clearList()"
+				style="background-color: yellow; color: black"
+			>
+				Limpar Lista
+			</button>
+			<button onclick="exportToTxt()">Exportar para TXT</button>
+
+			<div id="list"></div>
+		</main>
+		<footer style="margin: 10rem 0">
+			<strong>Micro-Processador</strong>
+			by
+			<strong>Gian Fiamoncini, Edson e Gustavo Pereira</strong>
+		</footer>
+		<script src="index.js"></script>
+	</body>
+</html>
